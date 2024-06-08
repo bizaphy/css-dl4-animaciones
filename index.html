@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/img/f1.png" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/queries.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1055036805.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>F1 Index 2024</title>
+  </head>
+  <body>
+    <header>
+      <div class="titulo-header">
+        <img src="./assets/img/icono.png" class="titulo-header-icono" />
+        <div class="titulo-header-texto">Indice F1 2024</div>
+      </div>
+    </header>
+    <aside>
+      <div class="seleccion-logo">
+        <img src="./assets/img/f1.png" class="seleccion-logo-ico" />
+      </div>
+      <div class="seleccion-texto">
+        <div class="selector">
+          <a href="#monoplazas"
+            ><p><i class="fa-solid fa-gauge"></i>Monoplazas</p></a
+          >
+        </div>
+        <div class="selector">
+          <a href="#pilotos">
+            <p><i class="fa-solid fa-user-large"></i>Pilotos</p></a
+          >
+        </div>
+        <div class="selector">
+          <a href="#proximo-circuito">
+            <p><i class="fa-solid fa-flag-checkered"></i>Circuitos</p>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <section class="galeria">
+        <div class="titulo-seccion" id="monoplazas"><p>Monoplazas</p></div>
+        <div class="grid-galeria">
+          <div class="test">
+            <img
+              src="./assets/img/redbull.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de Redbull"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/ferrari.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de Ferrari"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/mercedes.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de Mercedes"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/astonmartin.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza Aston Martin"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/mclaren.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de Mclaren"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/haas.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de Haas"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/alpine.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de Alpine"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/rb.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de RB"
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/kicksauber.avif"
+              class="imagen-galeria-carro"
+              alt="Monoplaza de Kick Sauber "
+            />
+          </div>
+          <div class="test">
+            <img
+              src="./assets/img/williams.avif"
+              class="imagen-galeria-carro last-galeria"
+              alt="Monoplaza de Williams "
+            />
+          </div>
+        </div>
+      </section>
+      <div class="linea"></div>
+      <section class="pilotos" id="pilotos">
+        <div class="grid-pilotos">
+          <div class="titulo-seccion" id="pilotos">
+            <img src="./assets/img/iconocasco.png" class="ico-pilotos" />
+            <p>Pilotos</p>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--redbull">
+            <p class="titulo-escuderia">Redbull Honda</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--redbull">
+                <img
+                  src="./assets/img/verstappen.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Max Verstappen"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Max Verstappen</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--redbull">
+                <img
+                  src="./assets/img/perez.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Sergio Perez"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Sergio Perez</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contenedor-escuderia contenedor-escuderia--mercedes">
+            <p class="titulo-escuderia">Mercedes</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--mercedes">
+                <img
+                  src="./assets/img/hamilton.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Lewis Hamilton"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Lewis Hamilton</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--mercedes">
+                <img
+                  src="./assets/img/russell.avif"
+                  class="piloto-imagen"
+                  alt="Foto de George Rusell"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">George Russell</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contenedor-escuderia contenedor-escuderia--ferrari">
+            <p class="titulo-escuderia">Ferrari</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--ferrari">
+                <img
+                  src="./assets/img/leclerc.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Charles Leclerc"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Charles Leclerc</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto-ferrari">
+                <img
+                  src="./assets/img/sainz.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Carlos Sainz"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Carlos Sainz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--mclaren">
+            <p class="titulo-escuderia">Mclaren</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--mclaren">
+                <img
+                  src="./assets/img/norris.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Lando Norris"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Lando Norris</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--mclaren">
+                <img
+                  src="./assets/img/piastri.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Oscar Piastri"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Oscar Piastri</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--aston">
+            <p class="titulo-escuderia">Aston Martin</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--aston">
+                <img
+                  src="./assets/img/alonso.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Fernando Alonso"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Fernando Alonso</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--aston">
+                <img
+                  src="./assets/img/stroll.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Lance Stroll"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Lance Stroll</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--haas">
+            <p class="titulo-escuderia">Haas</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--haas">
+                <img
+                  src="./assets/img/hulkenberg.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Niko Hulkenberg"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Niko Hulkenberg</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--haas">
+                <img
+                  src="./assets/img/magnussen.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Kevin Magnussen"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Kevin Magnussen</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--rb">
+            <p class="titulo-escuderia">RB Cash App</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--rb">
+                <img
+                  src="./assets/img/tsunoda.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Yuki Tsunoda"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Yuki Tsunoda</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--rb">
+                <img
+                  src="./assets/img/ricciardo.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Daniel Ricciardo"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Daniel Ricciardo</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--alpine">
+            <p class="titulo-escuderia">Alpine</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--alpine">
+                <img
+                  src="./assets/img/ocon.avif"
+                  class="piloto-imagen"
+                  alt=""
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Esteban Ocon</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--alpine">
+                <img
+                  src="./assets/img/gasly.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Pierre Gasly"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Pierre Gasly</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--williams">
+            <p class="titulo-escuderia">Williams</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--williams">
+                <img
+                  src="./assets/img/albon.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Alexander Albon"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Alexander Albon</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--williams">
+                <img
+                  src="./assets/img/sargeant.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Logan Sargeant"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Logan Sargeant</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-escuderia contenedor-escuderia--kick">
+            <p class="titulo-escuderia">Kick Sauber</p>
+            <div class="contenedor-pilotos">
+              <div class="piloto-imagen-contenedor piloto--kick">
+                <img
+                  src="./assets/img/bottas.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Valtteri Bottas"
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Valtteri Bottas</span>
+                </div>
+              </div>
+              <div class="piloto-imagen-contenedor piloto--kick">
+                <img
+                  src="./assets/img/zhou.avif"
+                  class="piloto-imagen"
+                  alt="Foto de Zhou Guanyu "
+                />
+                <div class="capa-bn">
+                  <span class="capa-bn-texto">Zhou Guanyu</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prox-circuito">
+        <div class="titulo-seccion" id="proximo-circuito">
+          <p>Proximo Circuito</p>
+        </div>
+        <div class="contenedor-circuito">
+          <img
+            src="./assets/img/monaco.png"
+            alt="Trazado del circuito de Monaco"
+            class="imagen"
+          />
+          <div class="info-circuito">
+            <p class="nombre-circuito">Gran Premio de Mónaco</p>
+            <a
+              href="https://maps.app.goo.gl/gaTup2CxSZsxMDYV7"
+              class="ciudad-circuito"
+              target="_blank"
+            >
+              <i class="fa-solid fa-location-pin"> Montecarlo</i>
+            </a>
+            <p class="fecha-circuito">Domingo 26 de junio</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-redes">
+        <p>
+          <a href="https://twitter.com/F1" target="_blank" class="link-footer"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </p>
+        <p>
+          <a href="https://instagram.com/f1" target="_blank" class="link-footer"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </p>
+      </div>
+      <div class="footer-autor">
+        <p>
+          <i class="fa-brands fa-github"></i> Creado por
+          <a
+            class="link-footer twitter"
+            href="https://github.com/bizaphy"
+            target="_blank"
+            ><span>@bizaphy</span></a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

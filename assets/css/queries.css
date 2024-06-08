@@ -1,0 +1,153 @@
+@media screen and (min-width: 576px) {
+  body {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "aside main"
+      "aside main"
+      "footer footer";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+  }
+
+  header {
+    padding: 0.6rem;
+  }
+
+  .titulo-header {
+    font-size: 1.4rem;
+  }
+
+  aside {
+    font-size: 1rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+  }
+  .grid-pilotos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .titulo-seccion p {
+    font-size: 1.2rem;
+  }
+
+  .seleccion-logo img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  .seleccion-texto {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .seleccion-texto p {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+
+  .titulo-escuderia {
+    font-size: 1.6rem;
+  }
+
+  #proximo-circuito {
+    margin-top: 4rem;
+  }
+
+  .contenedor-circuito {
+    flex-direction: row;
+    padding: 0rem 5rem 5rem 5rem;
+  }
+
+  .fecha-circuito {
+    margin-top: 1.5rem;
+  }
+
+  .footer-redes {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  footer {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .seleccion-texto p {
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+  }
+
+  .titulo-seccion p {
+    font-size: 1.5rem;
+  }
+
+  .grid-galeria {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .grid-pilotos {
+    gap: 0.5rem;
+  }
+
+  .contenedor-pilotos {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .titulo-escuderia {
+    flex-direction: row;
+    font-size: 1.8rem;
+  }
+
+  .piloto {
+    margin-bottom: 0rem;
+  }
+
+  .capa-bn-texto {
+    font-size: 2.2rem;
+    padding: 1rem;
+  }
+
+  .contenedor-circuito {
+    flex-direction: row;
+    padding: 0rem 8rem 0rem 8rem;
+  }
+  .contenedor-circuito img {
+    width: 70%;
+  }
+
+  .nombre-circuito {
+    font-size: 1.8rem;
+  }
+
+  .ciudad-circuito {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .fecha-circuito {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .grid-galeria {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+  }
+  .imagen-galeria-carro.last-galeria {
+    grid-column: 2 / 3;
+  }
+
+  .titulo-escuderia {
+    font-size: 2.5rem;
+  }
+  .capa-bn-texto {
+    font-size: 2.5rem;
+  }
+}
